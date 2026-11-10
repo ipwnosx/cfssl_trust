@@ -4,7 +4,7 @@ Subject: /C=US/O=VeriSign, Inc./OU=Class 3 Public Primary Certification
     Authority
 Issuer: /C=US/O=VeriSign, Inc./OU=Class 3 Public Primary Certification
     Authority
-	Signature algorithm: RSA / MD2
+	Signature algorithm: unknown public key algorithm / unknown hash algorithm
 Details:
 	Public key: RSA-1024
 	Serial number: 149843929435818692848040365716851702463
@@ -18,7 +18,7 @@ Subject: /C=US/O=VeriSign, Inc./OU=Class 1 Public Primary Certification
     Authority
 Issuer: /C=US/O=VeriSign, Inc./OU=Class 1 Public Primary Certification
     Authority
-	Signature algorithm: RSA / MD2
+	Signature algorithm: unknown public key algorithm / unknown hash algorithm
 Details:
 	Public key: RSA-1024
 	Serial number: 273460089105783944861631223625220794965
@@ -46,7 +46,7 @@ Subject: /C=US/O=VeriSign, Inc./OU=Class 2 Public Primary Certification
     Authority
 Issuer: /C=US/O=VeriSign, Inc./OU=Class 2 Public Primary Certification
     Authority
-	Signature algorithm: RSA / MD2
+	Signature algorithm: unknown public key algorithm / unknown hash algorithm
 Details:
 	Public key: RSA-1024
 	Serial number: 59960568862895187107119492226041101835
@@ -242,19 +242,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /Baltimore CyberTrust Root/C=IE/O=Baltimore/OU=CyberTrust
-Issuer: /Baltimore CyberTrust Root/C=IE/O=Baltimore/OU=CyberTrust
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 33554617
-	SKI: E5:9D:59:30:82:47:58:CC:AC:FA:08:54:36:86:7B:3A:B5:04:4D:F0
-	Valid from: 2000-05-12T18:46:00+0000
-	     until: 2025-05-12T23:59:00+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 3
-	SANs (0):
-CERTIFICATE
 Subject: /SwissSign CA (RSA IK May 6 1999 18:00:58)/C=CH/O=SwissSign
 Issuer: /SwissSign CA (RSA IK May 6 1999 18:00:58)/C=CH/O=SwissSign
 	Signature algorithm: RSA / SHA1
@@ -265,34 +252,6 @@ Details:
 	Valid from: 2000-11-26T23:27:41+0000
 	     until: 2031-11-26T23:27:41+0000
 	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /O=RSA Security Inc/OU=RSA Security 2048 V3
-Issuer: /O=RSA Security Inc/OU=RSA Security 2048 V3
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 13297492616345471454730593562152402946
-	AKI: 07:C3:51:30:A4:AA:E9:45:AE:35:24:FA:FF:24:2C:33:D0:B1:9D:8C
-	SKI: 07:C3:51:30:A4:AA:E9:45:AE:35:24:FA:FF:24:2C:33:D0:B1:9D:8C
-	Valid from: 2001-02-22T20:39:23+0000
-	     until: 2026-02-22T20:39:23+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /GeoTrust Global CA/C=US/O=GeoTrust Inc.
-Issuer: /GeoTrust Global CA/C=US/O=GeoTrust Inc.
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 144470
-	AKI: C0:7A:98:68:8D:89:FB:AB:05:64:0C:11:7D:AA:7D:65:B8:CA:CC:4E
-	SKI: C0:7A:98:68:8D:89:FB:AB:05:64:0C:11:7D:AA:7D:65:B8:CA:CC:4E
-	Valid from: 2002-05-21T04:00:00+0000
-	     until: 2022-05-21T04:00:00+0000
-	Key usages: 
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -372,21 +331,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /Visa eCommerce Root/C=US/O=VISA/OU=Visa International Service
-    Association
-Issuer: /Visa eCommerce Root/C=US/O=VISA/OU=Visa International Service
-    Association
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 25952180776285836048024890241505565794
-	SKI: 15:38:83:0F:3F:2C:3F:70:33:1E:CD:46:FE:07:8C:20:E0:D7:C3:B7
-	Valid from: 2002-06-26T02:18:36+0000
-	     until: 2022-06-24T00:16:12+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /C=TW/O=Government Root Certification Authority
 Issuer: /C=TW/O=Government Root Certification Authority
 	Signature algorithm: RSA / SHA1
@@ -397,21 +341,6 @@ Details:
 	Valid from: 2002-12-05T13:23:33+0000
 	     until: 2032-12-05T13:23:33+0000
 	Key usages: 
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /VRK Gov. Root CA/C=FI/O=Vaestorekisterikeskus CA/OU=Certification
-    Authority Services/OU=Varmennepalvelut/ST=Finland
-Issuer: /VRK Gov. Root CA/C=FI/O=Vaestorekisterikeskus CA/OU=Certification
-    Authority Services/OU=Varmennepalvelut/ST=Finland
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 100000
-	SKI: DB:E9:E1:9B:D2:D1:24:0B:FC:AB:E3:A0:67:EA:AE:9C:4B:77:F4:B0
-	Valid from: 2002-12-18T13:53:00+0000
-	     until: 2023-12-18T13:51:08+0000
-	Key usages: cert sign, content committment, crl sign, digital signature
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -434,20 +363,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (1): email:ec_acc@catcert.net
 CERTIFICATE
-Subject: /C=SI/O=POSTA/OU=POSTArCA
-Issuer: /C=SI/O=POSTA/OU=POSTArCA
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 1044616010
-	AKI: 3F:BD:CD:8E:DF:BE:D1:6B:65:44:3F:60:EC:EA:42:2E:30:70:1F:68
-	SKI: 3F:BD:CD:8E:DF:BE:D1:6B:65:44:3F:60:EC:EA:42:2E:30:70:1F:68
-	Valid from: 2003-02-07T10:36:58+0000
-	     until: 2023-02-07T11:06:58+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /TDC OCES CA/C=DK/O=TDC
 Issuer: /TDC OCES CA/C=DK/O=TDC
 	Signature algorithm: RSA / SHA1
@@ -458,62 +373,6 @@ Details:
 	SKI: 60:B5:85:EC:56:64:7E:12:19:27:67:1D:50:15:4B:73:AE:3B:F9:12
 	Valid from: 2003-02-11T08:39:30+0000
 	     until: 2037-02-11T09:09:30+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /NetLock Minositett Kozjegyzoi (Class QA)
-    Tanusitvanykiado/C=HU/O=NetLock Halozatbiztonsagi
-    Kft./OU=Tanusitvanykiadok/L=Budapest
-Issuer: /NetLock Minositett Kozjegyzoi (Class QA)
-    Tanusitvanykiado/C=HU/O=NetLock Halozatbiztonsagi
-    Kft./OU=Tanusitvanykiadok/L=Budapest
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 123
-	SKI: 09:6A:62:16:92:B0:5A:BB:55:0E:CB:75:32:3A:32:E5:B2:21:C9:28
-	Valid from: 2003-03-30T01:47:11+0000
-	     until: 2022-12-15T01:47:11+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 4
-	SANs (0):
-CERTIFICATE
-Subject: /Hongkong Post Root CA 1/C=HK/O=Hongkong Post
-Issuer: /Hongkong Post Root CA 1/C=HK/O=Hongkong Post
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 1000
-	Valid from: 2003-05-15T05:13:14+0000
-	     until: 2023-05-15T04:52:29+0000
-	Key usages: cert sign, content committment, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 3
-	SANs (0):
-CERTIFICATE
-Subject: /C=SI/O=ACNLB
-Issuer: /C=SI/O=ACNLB
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 1053001358
-	AKI: CC:BB:BB:86:D6:6F:F8:BE:B4:47:22:77:B3:B6:AD:D7:01:59:96:4D
-	SKI: CC:BB:BB:86:D6:6F:F8:BE:B4:47:22:77:B3:B6:AD:D7:01:59:96:4D
-	Valid from: 2003-05-15T11:52:45+0000
-	     until: 2023-05-15T12:22:45+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /C=JP/O=SECOM Trust.net/OU=Security Communication RootCA1
-Issuer: /C=JP/O=SECOM Trust.net/OU=Security Communication RootCA1
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 0
-	SKI: A0:73:49:99:68:DC:85:5B:65:E3:9B:28:2F:57:9F:BD:33:BC:07:48
-	Valid from: 2003-09-30T04:20:49+0000
-	     until: 2023-09-30T04:20:49+0000
 	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
@@ -547,35 +406,6 @@ Details:
 	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate, max path length 12
 	SANs (1): email:chambersignroot@chambersign.org
-CERTIFICATE
-Subject: /C=GB/O=Trustis Limited/OU=Trustis FPS Root CA
-Issuer: /C=GB/O=Trustis Limited/OU=Trustis FPS Root CA
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 36053640375399034304724988975563710553
-	AKI: BA:FA:71:25:79:8B:57:41:25:21:86:0B:71:EB:B2:64:0E:8B:21:67
-	SKI: BA:FA:71:25:79:8B:57:41:25:21:86:0B:71:EB:B2:64:0E:8B:21:67
-	Valid from: 2003-12-23T12:14:06+0000
-	     until: 2024-01-21T11:36:54+0000
-	Key usages: 
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /AAA Certificate Services/C=GB/O=Comodo CA
-    Limited/L=Salford/ST=Greater Manchester
-Issuer: /AAA Certificate Services/C=GB/O=Comodo CA
-    Limited/L=Salford/ST=Greater Manchester
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 1
-	SKI: A0:11:0A:23:3E:96:F1:07:EC:E2:AF:29:EF:82:A5:7F:D0:30:A4:B4
-	Valid from: 2004-01-01T00:00:00+0000
-	     until: 2028-12-31T23:59:59+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
 CERTIFICATE
 Subject: /Secure Certificate Services/C=GB/O=Comodo CA
     Limited/L=Salford/ST=Greater Manchester
@@ -620,54 +450,6 @@ Details:
 	Extended usages: client auth, code signing, ipsec end system, ipsec tunnel, ipsec user, ocsp signing, s/mime, server auth, timestamping
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
-CERTIFICATE
-Subject: /ANCERT Certificados Notariales/C=ES/O=Agencia Notarial de
-    Certificacion S.L. Unipersonal - CIF B83395988
-Issuer: /ANCERT Certificados Notariales/C=ES/O=Agencia Notarial de
-    Certificacion S.L. Unipersonal - CIF B83395988
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 325409233719337298112030738776030590596
-	AKI: 84:F7:FA:72:5E:88:64:66:1D:28:8C:B0:77:BD:0C:6A:9F:4C:4D:62
-	SKI: 84:F7:FA:72:5E:88:64:66:1D:28:8C:B0:77:BD:0C:6A:9F:4C:4D:62
-	Valid from: 2004-02-11T15:58:30+0000
-	     until: 2024-02-11T15:58:26+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate
-	SANs (1): email:ancert@ancert.com
-CERTIFICATE
-Subject: /ANCERT Corporaciones de Derecho Publico/C=ES/O=Agencia Notarial de
-    Certificacion S.L. Unipersonal - CIF B83395988
-Issuer: /ANCERT Corporaciones de Derecho Publico/C=ES/O=Agencia Notarial de
-    Certificacion S.L. Unipersonal - CIF B83395988
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 84670256485116394708501439464043806631
-	AKI: 8C:4C:1E:37:0C:B1:9F:D2:AC:44:0B:3A:BE:02:CF:F4:8D:2D:66:95
-	SKI: 8C:4C:1E:37:0C:B1:9F:D2:AC:44:0B:3A:BE:02:CF:F4:8D:2D:66:95
-	Valid from: 2004-02-11T17:22:45+0000
-	     until: 2024-02-11T17:22:45+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate
-	SANs (1): email:ancert@ancert.com
-CERTIFICATE
-Subject: /ANCERT Certificados CGN/C=ES/O=Agencia Notarial de Certificacion
-    S.L. Unipersonal - CIF B83395988
-Issuer: /ANCERT Certificados CGN/C=ES/O=Agencia Notarial de Certificacion S.L.
-    Unipersonal - CIF B83395988
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 355447705768850101265163501012581525
-	AKI: EC:57:9F:C8:76:22:6F:CC:3A:AE:5B:F0:2D:A1:62:58:D1:8D:02:CC
-	SKI: EC:57:9F:C8:76:22:6F:CC:3A:AE:5B:F0:2D:A1:62:58:D1:8D:02:CC
-	Valid from: 2004-02-11T17:27:12+0000
-	     until: 2024-02-11T17:27:12+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate
-	SANs (1): email:ancert@ancert.com
 CERTIFICATE
 Subject: /GeoTrust Universal CA/C=US/O=GeoTrust Inc.
 Issuer: /GeoTrust Universal CA/C=US/O=GeoTrust Inc.
@@ -799,48 +581,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /Serasa Certificate Authority II/C=BR/O=Serasa S.A./OU=Serasa CA II
-Issuer: /Serasa Certificate Authority II/C=BR/O=Serasa S.A./OU=Serasa CA II
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 5056230419077763488
-	SKI: 9E:EC:99:10:00:49:6B:CC:8A:3F:DB:6F:06:E5:CA:14:18:72:93:83
-	Valid from: 2004-11-26T12:34:48+0000
-	     until: 2024-11-21T12:44:48+0000
-	Key usages: cert sign, crl sign
-	Extended usages: code signing, server auth, timestamping
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /Serasa Certificate Authority III/C=BR/O=Serasa S.A./OU=Serasa CA III
-Issuer: /Serasa Certificate Authority III/C=BR/O=Serasa S.A./OU=Serasa CA III
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 4276163686201040820
-	SKI: 46:C2:78:AB:54:E0:F8:68:27:39:DF:42:B3:F3:54:C3:06:7D:26:A1
-	Valid from: 2004-11-26T13:14:14+0000
-	     until: 2024-11-21T13:24:14+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, code signing, s/mime, server auth
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /Serasa Certificate Authority I/C=BR/O=Serasa S.A./OU=Serasa CA I
-Issuer: /Serasa Certificate Authority I/C=BR/O=Serasa S.A./OU=Serasa CA I
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 3015013576204765766
-	SKI: F8:38:EE:5C:6E:ED:AB:96:A0:45:EB:36:0F:DC:D9:AB:3A:31:58:FD
-	Valid from: 2004-11-26T14:02:45+0000
-	     until: 2024-11-21T14:12:45+0000
-	Key usages: cert sign, crl sign
-	Extended usages: client auth, s/mime, timestamping
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /DoD Root CA 2/C=US/O=U.S. Government/OU=DoD/OU=PKI
 Issuer: /DoD Root CA 2/C=US/O=U.S. Government/OU=DoD/OU=PKI
 	Signature algorithm: RSA / SHA1
@@ -866,40 +606,6 @@ Details:
 	Valid from: 2004-12-20T02:31:27+0000
 	     until: 2034-12-20T02:31:27+0000
 	Key usages: 
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /Apple Root Certificate Authority/C=US/O=Apple Computer,
-    Inc./OU=Apple Computer Certificate Authority
-Issuer: /Apple Root Certificate Authority/C=US/O=Apple Computer, Inc./OU=Apple
-    Computer Certificate Authority
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 1
-	AKI: 2B:D0:69:47:94:76:09:FE:F4:6B:8D:2E:40:A6:F7:47:4D:7F:08:5E
-	SKI: 2B:D0:69:47:94:76:09:FE:F4:6B:8D:2E:40:A6:F7:47:4D:7F:08:5E
-	Valid from: 2005-02-10T00:18:14+0000
-	     until: 2025-02-10T00:18:14+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-	1 AIA:
-		https://www.apple.com/certificateauthority/casigners.html
-CERTIFICATE
-Subject: /Autoridad Certificadora Raiz de la Secretaria de
-    Economia/C=MX/O=Secretaria de Economia/OU=Direccion General de
-    Normatividad Mercantil/L=Alvaro Obregon/ST=Distrito Federal
-Issuer: /Autoridad Certificadora Raiz de la Secretaria de
-    Economia/C=MX/O=Secretaria de Economia/OU=Direccion General de
-    Normatividad Mercantil/L=Alvaro Obregon/ST=Distrito Federal
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 1
-	Valid from: 2005-05-08T00:00:00+0000
-	     until: 2025-05-08T00:00:00+0000
-	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -936,61 +642,6 @@ Details:
 	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 CERTIFICATE
-Subject: /Visa Information Delivery Root CA/C=US/O=VISA/OU=Visa International
-    Service Association
-Issuer: /Visa Information Delivery Root CA/C=US/O=VISA/OU=Visa International
-    Service Association
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 121415851495250424066466305397098862306
-	SKI: 4F:8A:DA:76:FF:67:77:23:9A:A6:80:7D:7D:DB:88:75:85:F7:81:7A
-	Valid from: 2005-06-27T17:42:42+0000
-	     until: 2025-06-29T17:42:42+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /Certipost E-Trust TOP Root CA/C=BE/O=Certipost s.a./n.v.
-Issuer: /Certipost E-Trust TOP Root CA/C=BE/O=Certipost s.a./n.v.
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 4835703278459639067623829
-	SKI: 4B:DE:BE:05:31:2E:F3:35:C8:D8:CA:A7:56:C5:94:0D:B4:5A:65:C5
-	Valid from: 2005-07-26T10:00:00+0000
-	     until: 2025-07-26T10:00:00+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /Swisscom Root CA 1/C=ch/O=Swisscom/OU=Digital Certificate Services
-Issuer: /Swisscom Root CA 1/C=ch/O=Swisscom/OU=Digital Certificate Services
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-4096
-	Serial number: 122348795730808398873664200247279986742
-	AKI: 03:25:2F:DE:6F:82:01:3A:5C:2C:DC:2B:A1:69:B5:67:D4:8C:D3:FD
-	SKI: 03:25:2F:DE:6F:82:01:3A:5C:2C:DC:2B:A1:69:B5:67:D4:8C:D3:FD
-	Valid from: 2005-08-18T12:06:20+0000
-	     until: 2025-08-18T22:06:20+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate, max path length 7
-	SANs (0):
-CERTIFICATE
-Subject: /KISA RootCA 1/C=KR/O=KISA/OU=Korea Certification Authority Central
-Issuer: /KISA RootCA 1/C=KR/O=KISA/OU=Korea Certification Authority Central
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 4
-	SKI: BF:B6:27:D8:03:5A:76:65:4C:61:01:41:56:31:E5:8B:7B:3A:D9:CC
-	Valid from: 2005-08-24T08:05:46+0000
-	     until: 2025-08-24T08:05:46+0000
-	Key usages: 
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /Echoworx Root CA2/C=CA/O=Echoworx Corporation/OU=Certification
     Services/L=Toronto/ST=Ontario
 Issuer: /Echoworx Root CA2/C=CA/O=Echoworx Corporation/OU=Certification
@@ -1022,36 +673,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /TC TrustCenter Class 2 CA II/C=DE/O=TC TrustCenter GmbH/OU=TC
-    TrustCenter Class 2 CA
-Issuer: /TC TrustCenter Class 2 CA II/C=DE/O=TC TrustCenter GmbH/OU=TC
-    TrustCenter Class 2 CA
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 941389028203453866782103406992443
-	SKI: E3:AB:54:4C:80:A1:DB:56:43:B7:91:4A:CB:F3:82:7A:13:5C:08:AB
-	Valid from: 2006-01-12T14:38:43+0000
-	     until: 2025-12-31T22:59:59+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /TC TrustCenter Class 3 CA II/C=DE/O=TC TrustCenter GmbH/OU=TC
-    TrustCenter Class 3 CA
-Issuer: /TC TrustCenter Class 3 CA II/C=DE/O=TC TrustCenter GmbH/OU=TC
-    TrustCenter Class 3 CA
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 1506523511417715638772220530020799
-	SKI: D4:A2:FC:9F:B3:C3:D8:03:D3:57:5C:07:A4:D0:24:A7:C0:F2:00:D4
-	Valid from: 2006-01-12T14:41:57+0000
-	     until: 2025-12-31T22:59:59+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /AC RAIZ DNIE/C=ES/O=DIRECCION GENERAL DE LA POLICIA/OU=DNIE
 Issuer: /AC RAIZ DNIE/C=ES/O=DIRECCION GENERAL DE LA POLICIA/OU=DNIE
 	Signature algorithm: RSA / SHA1
@@ -1062,37 +683,6 @@ Details:
 	Valid from: 2006-02-16T10:37:25+0000
 	     until: 2036-02-08T22:59:59+0000
 	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /InfoNotary CSP Root/C=BG/O=InfoNotary PLC/OU=InfoNotary CSP Root
-Issuer: /InfoNotary CSP Root/C=BG/O=InfoNotary PLC/OU=InfoNotary CSP Root
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-4096
-	Serial number: 1922916560873434976
-	SKI: DD:D4:4E:67:43:3F:D3:EA:62:E8:DA:89:6E:8E:3B:6E:0B:BB:95:9F
-	Valid from: 2006-03-06T17:33:05+0000
-	     until: 2026-03-06T17:33:05+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-	OCSP server:
-		- http://ocsp.infonotary.com/responder.cgi
-CERTIFICATE
-Subject: /TC TrustCenter Universal CA I/C=DE/O=TC TrustCenter GmbH/OU=TC
-    TrustCenter Universal CA
-Issuer: /TC TrustCenter Universal CA I/C=DE/O=TC TrustCenter GmbH/OU=TC
-    TrustCenter Universal CA
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 601024842042189035295619584734726
-	AKI: 92:A4:75:2C:A4:9E:BE:81:44:EB:79:FC:8A:C5:95:A5:EB:10:75:73
-	SKI: 92:A4:75:2C:A4:9E:BE:81:44:EB:79:FC:8A:C5:95:A5:EB:10:75:73
-	Valid from: 2006-03-22T15:54:28+0000
-	     until: 2025-12-31T22:59:59+0000
-	Key usages: cert sign, crl sign, digital signature
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -1108,21 +698,6 @@ Details:
 	SKI: CD:D7:90:A1:6E:A3:BF:DB:30:D6:DA:32:25:90:0C:E6:39:1E:80:65
 	Valid from: 2006-03-22T15:58:34+0000
 	     until: 2030-12-31T22:59:59+0000
-	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /TC TrustCenter Class 4 CA II/C=DE/O=TC TrustCenter GmbH/OU=TC
-    TrustCenter Class 4 CA
-Issuer: /TC TrustCenter Class 4 CA II/C=DE/O=TC TrustCenter GmbH/OU=TC
-    TrustCenter Class 4 CA
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 116623856429964560337522234651920
-	SKI: 1F:EA:BB:3E:25:1B:06:BD:A5:DD:62:05:7E:C6:4C:5A:BF:E8:0F:43
-	Valid from: 2006-03-23T14:10:23+0000
-	     until: 2025-12-31T22:59:59+0000
 	Key usages: cert sign, crl sign, digital signature
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
@@ -1182,21 +757,6 @@ Details:
 	Key usages: cert sign, content committment, crl sign, digital signature
 	Basic constraints: valid, is a CA certificate
 	SANs (1): email:info@globaltrust.info
-CERTIFICATE
-Subject: /VAS Latvijas Pasts SSI(RCA)/C=LV/O=VAS Latvijas Pasts -
-    Vien.reg.Nr.40003052790/OU=Sertifikacijas pakalpojumi
-Issuer: /VAS Latvijas Pasts SSI(RCA)/C=LV/O=VAS Latvijas Pasts -
-    Vien.reg.Nr.40003052790/OU=Sertifikacijas pakalpojumi
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-4096
-	Serial number: 131627456498883427451709170510772098098
-	SKI: CC:C3:F5:66:FF:73:AC:38:5A:96:1B:21:89:B8:81:4C:1F:CB:5E:25
-	Valid from: 2006-09-13T09:22:10+0000
-	     until: 2024-09-13T09:27:57+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
 CERTIFICATE
 Subject: /StartCom Certification Authority/C=IL/O=StartCom Ltd./OU=Secure
     Digital Certificate Signing
@@ -1414,24 +974,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /Entrust Root Certification Authority/C=US/O=Entrust,
-    Inc./OU=www.entrust.net/CPS is incorporated by reference/OU=(c) 2006
-    Entrust, Inc.
-Issuer: /Entrust Root Certification Authority/C=US/O=Entrust,
-    Inc./OU=www.entrust.net/CPS is incorporated by reference/OU=(c) 2006
-    Entrust, Inc.
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 1164660820
-	AKI: 68:90:E4:67:A4:A6:53:80:C7:86:66:A4:F1:F7:4B:43:FB:84:BD:6D
-	SKI: 68:90:E4:67:A4:A6:53:80:C7:86:66:A4:F1:F7:4B:43:FB:84:BD:6D
-	Valid from: 2006-11-27T20:23:42+0000
-	     until: 2026-11-27T20:53:42+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /AC Raíz Certicámara S.A./C=CO/O=Sociedad Cameral de Certificación
     Digital - Certicámara S.A.
 Issuer: /AC Raíz Certicámara S.A./C=CO/O=Sociedad Cameral de Certificación
@@ -1473,34 +1015,6 @@ Details:
 	SKI: 21:30:C9:FB:00:D7:4E:98:DA:87:AA:2A:D0:A7:2E:B1:40:31:A7:4C
 	Valid from: 2006-12-01T00:00:00+0000
 	     until: 2029-12-31T23:59:59+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /GlobalSign/O=GlobalSign/OU=GlobalSign Root CA - R2
-Issuer: /GlobalSign/O=GlobalSign/OU=GlobalSign Root CA - R2
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 4835703278459682885658125
-	AKI: 9B:E2:07:57:67:1C:1E:C0:6A:06:DE:59:B4:9A:2D:DF:DC:19:86:2E
-	SKI: 9B:E2:07:57:67:1C:1E:C0:6A:06:DE:59:B4:9A:2D:DF:DC:19:86:2E
-	Valid from: 2006-12-15T08:00:00+0000
-	     until: 2021-12-15T08:00:00+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /Cybertrust Global Root/O=Cybertrust, Inc
-Issuer: /Cybertrust Global Root/O=Cybertrust, Inc
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 4835703278459682877484360
-	AKI: B6:08:7B:0D:7A:CC:AC:20:4C:86:56:32:5E:CF:AB:6E:85:2D:70:57
-	SKI: B6:08:7B:0D:7A:CC:AC:20:4C:86:56:32:5E:CF:AB:6E:85:2D:70:57
-	Valid from: 2006-12-15T08:00:00+0000
-	     until: 2021-12-15T08:00:00+0000
 	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
@@ -1626,49 +1140,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /D-TRUST Root Class 2 CA 2007/C=DE/O=D-Trust GmbH
-Issuer: /D-TRUST Root Class 2 CA 2007/C=DE/O=D-Trust GmbH
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 200341
-	SKI: 91:30:AB:F6:F3:C6:44:B7:EB:DD:28:BC:0F:14:9F:52:5D:62:7F:02
-	Valid from: 2007-05-16T05:20:47+0000
-	     until: 2022-05-16T05:20:47+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (1): email:info@d-trust.net
-	OCSP server:
-		- http://users.ocsp.d-trust.net
-CERTIFICATE
-Subject: /D-TRUST Root Class 3 CA 2007/C=DE/O=D-Trust GmbH
-Issuer: /D-TRUST Root Class 3 CA 2007/C=DE/O=D-Trust GmbH
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 200342
-	SKI: 82:2F:36:23:49:78:20:42:D7:B0:52:58:A0:D6:74:54:15:78:BF:AA
-	Valid from: 2007-05-16T05:20:47+0000
-	     until: 2022-05-16T05:20:47+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (1): email:info@d-trust.net
-	OCSP server:
-		- http://users.ocsp.d-trust.net
-CERTIFICATE
-Subject: /DigiNotar Root CA/C=NL/O=DigiNotar
-Issuer: /DigiNotar Root CA/C=NL/O=DigiNotar
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-4096
-	Serial number: 16567860948503251126030800461245922380
-	SKI: 88:68:BF:E0:8E:35:C4:3B:38:6B:62:F7:28:3B:84:81:C8:0C:D7:4D
-	Valid from: 2007-05-16T17:19:36+0000
-	     until: 2025-03-31T18:19:21+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication EV
     RootCA1
 Issuer: /C=JP/O=SECOM Trust Systems CO.,LTD./OU=Security Communication EV
@@ -1694,34 +1165,6 @@ Details:
 	SKI: 1A:ED:FE:41:39:90:B4:24:59:BE:01:F2:52:D5:45:F6:5A:39:DC:11
 	Valid from: 2007-06-29T15:13:05+0000
 	     until: 2027-06-29T15:13:05+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /Post.Trust Root CA/C=IE/O=An Post/OU=Post.Trust Ltd.
-Issuer: /Post.Trust Root CA/C=IE/O=An Post/OU=Post.Trust Ltd.
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 967218965
-	AKI: 8E:A1:73:F9:3A:03:21:F0:2C:57:8B:0E:02:0B:E3:9E:0B:B3:9D:97
-	SKI: 8E:A1:73:F9:3A:03:21:F0:2C:57:8B:0E:02:0B:E3:9E:0B:B3:9D:97
-	Valid from: 2007-07-05T09:14:08+0000
-	     until: 2022-07-05T09:12:33+0000
-	Key usages: cert sign, content committment, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /Belgium Root CA2/C=BE
-Issuer: /Belgium Root CA2/C=BE
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 3098404661496965511
-	AKI: 85:8A:EB:F4:C5:BB:BE:0E:59:03:94:DE:D6:80:01:15:E3:10:9C:39
-	SKI: 85:8A:EB:F4:C5:BB:BE:0E:59:03:94:DE:D6:80:01:15:E3:10:9C:39
-	Valid from: 2007-10-04T10:00:00+0000
-	     until: 2021-12-15T08:00:00+0000
 	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
@@ -1824,22 +1267,6 @@ Details:
 	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (1): email:info@izenpe.com
-CERTIFICATE
-Subject: /WellsSecure Public Root Certificate Authority/C=US/O=Wells Fargo
-    WellsSecure/OU=Wells Fargo Bank NA
-Issuer: /WellsSecure Public Root Certificate Authority/C=US/O=Wells Fargo
-    WellsSecure/OU=Wells Fargo Bank NA
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 1
-	AKI: 26:95:19:10:D9:E8:A1:97:91:FF:DC:19:D9:B5:04:3E:D2:73:0A:6A
-	SKI: 26:95:19:10:D9:E8:A1:97:91:FF:DC:19:D9:B5:04:3E:D2:73:0A:6A
-	Valid from: 2007-12-13T17:07:54+0000
-	     until: 2022-12-14T00:07:54+0000
-	Key usages: cert sign, content committment, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
 CERTIFICATE
 Subject: /UCA Global Root/C=CN/O=UniTrust
 Issuer: /UCA Global Root/C=CN/O=UniTrust
@@ -1978,21 +1405,6 @@ Details:
 	SKI: 7D:BB:69:EB:88:61:E1:40:CF:47:23:64:00:86:A2:66:6B:DC:84:95
 	Valid from: 2008-07-14T16:52:15+0000
 	     until: 2030-12-31T02:59:59+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /VI Registru Centras RCSC (RootCA)/C=LT/O=VI Registru Centras - I.k.
-    124110246/OU=Registru Centro Sertifikavimo Centras
-Issuer: /VI Registru Centras RCSC (RootCA)/C=LT/O=VI Registru Centras - I.k.
-    124110246/OU=Registru Centro Sertifikavimo Centras
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-4096
-	Serial number: 4837361639629141123735958596081358492
-	SKI: BC:73:3E:2F:9C:91:0C:BB:8F:CD:77:99:3E:CC:85:E4:CC:58:68:11
-	Valid from: 2008-07-21T11:47:46+0000
-	     until: 2024-07-21T11:47:46+0000
 	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
@@ -2279,21 +1691,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (1): email:info@e-szigno.hu
 CERTIFICATE
-Subject: /Actalis Authentication CA G1/C=IT/O=Actalis
-    S.p.A./03358520967/L=Milano
-Issuer: /Actalis Authentication CA G1/C=IT/O=Actalis
-    S.p.A./03358520967/L=Milano
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 1
-	SKI: 01:BB:D6:9B:56:B4:7E:E6:C5:58:DD:2C:98:F4:CA:72:F6:5F:33:86
-	Valid from: 2009-06-23T14:06:00+0000
-	     until: 2022-06-25T14:06:00+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-CERTIFICATE
 Subject: /Entrust Root Certification Authority - G2/C=US/O=Entrust,
     Inc./OU=See www.entrust.net/legal-terms/OU=(c) 2009 Entrust, Inc. - for
     authorized use only
@@ -2507,20 +1904,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /PostSignum Root QCA 2/C=CZ/O=Česká pošta, s.p. [IČ 47114983]
-Issuer: /PostSignum Root QCA 2/C=CZ/O=Česká pošta, s.p. [IČ 47114983]
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 100
-	AKI: 15:29:8C:C5:45:69:AB:B8:B3:C3:EA:FE:4B:B8:31:D8:DC:F0:E7:76
-	SKI: 15:29:8C:C5:45:69:AB:B8:B3:C3:EA:FE:4B:B8:31:D8:DC:F0:E7:76
-	Valid from: 2010-01-19T08:04:31+0000
-	     until: 2025-01-19T08:04:31+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 1
-	SANs (0):
-CERTIFICATE
 Subject: /AffirmTrust Commercial/C=US/O=AffirmTrust
 Issuer: /AffirmTrust Commercial/C=US/O=AffirmTrust
 	Signature algorithm: RSA / SHA256
@@ -2661,24 +2044,6 @@ Details:
 	Valid from: 2010-05-25T16:56:14+0000
 	     until: 2030-05-25T16:56:14+0000
 	Key usages: cert sign, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /Autoridade Certificadora Raiz Brasileira
-    v2/C=BR/O=ICP-Brasil/OU=Instituto Nacional de Tecnologia da Informacao -
-    ITI
-Issuer: /Autoridade Certificadora Raiz Brasileira
-    v2/C=BR/O=ICP-Brasil/OU=Instituto Nacional de Tecnologia da Informacao -
-    ITI
-	Signature algorithm: RSA / SHA512
-Details:
-	Public key: RSA-4096
-	Serial number: 1
-	AKI: 0C:39:20:3A:B7:01:1F:CB:D7:28:7D:41:A0:C7:FA:4A:AD:32:24:BE
-	SKI: 0C:39:20:3A:B7:01:1F:CB:D7:28:7D:41:A0:C7:FA:4A:AD:32:24:BE
-	Valid from: 2010-06-21T19:04:57+0000
-	     until: 2023-06-21T19:04:57+0000
-	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
@@ -2882,19 +2247,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /Staat der Nederlanden EV Root CA/C=NL/O=Staat der Nederlanden
-Issuer: /Staat der Nederlanden EV Root CA/C=NL/O=Staat der Nederlanden
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-4096
-	Serial number: 10000013
-	SKI: FE:AB:00:90:98:9E:24:FC:A9:CC:1A:8A:FB:27:B8:BF:30:6E:A8:3B
-	Valid from: 2010-12-08T11:19:29+0000
-	     until: 2022-12-08T11:10:28+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /Autoridad de Certificacion Raiz del Estado Venezolano/C=VE/O=Sistema
     Nacional de Certificacion Electronica/OU=Superintendencia de Servicios de
     Certificacion Electronica/L=Caracas/ST=Distrito Capital
@@ -3022,20 +2374,6 @@ Details:
 		http://www.accv.es/fileadmin/Archivos/certificados/raizaccv1.crt
 	OCSP server:
 		- http://ocsp.accv.es
-CERTIFICATE
-Subject: /C=CN/O=CFCA GT CA
-Issuer: /C=CN/O=CFCA GT CA
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 429472831
-	AKI: 8C:76:50:CE:25:D3:79:2B:3C:F4:6D:9D:9A:E1:9E:05:4F:E8:3D:25
-	SKI: 8C:76:50:CE:25:D3:79:2B:3C:F4:6D:9D:9A:E1:9E:05:4F:E8:3D:25
-	Valid from: 2011-06-13T08:15:09+0000
-	     until: 2026-06-09T08:15:09+0000
-	Key usages: cert sign, content committment, crl sign, digital signature
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
 CERTIFICATE
 Subject: /Swisscom Root CA 2/C=ch/O=Swisscom/OU=Digital Certificate Services
 Issuer: /Swisscom Root CA 2/C=ch/O=Swisscom/OU=Digital Certificate Services
@@ -3583,54 +2921,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /E-Tugra Certification Authority/C=TR/O=E-Tuğra EBG Bilişim
-    Teknolojileri ve Hizmetleri A.Ş./OU=E-Tugra Sertifikasyon
-    Merkezi/L=Ankara
-Issuer: /E-Tugra Certification Authority/C=TR/O=E-Tuğra EBG Bilişim
-    Teknolojileri ve Hizmetleri A.Ş./OU=E-Tugra Sertifikasyon
-    Merkezi/L=Ankara
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-4096
-	Serial number: 7667447206703254355
-	AKI: 2E:E3:DB:B2:49:D0:9C:54:79:5C:FA:27:2A:FE:CC:4E:D2:E8:4E:54
-	SKI: 2E:E3:DB:B2:49:D0:9C:54:79:5C:FA:27:2A:FE:CC:4E:D2:E8:4E:54
-	Valid from: 2013-03-05T12:09:48+0000
-	     until: 2023-03-03T12:09:48+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /E-GUVEN Kok Elektronik Sertifika Hizmet Saglayicisi
-    S2/C=TR/O=Elektronik Bilgi Guvenligi A.S.
-Issuer: /E-GUVEN Kok Elektronik Sertifika Hizmet Saglayicisi
-    S2/C=TR/O=Elektronik Bilgi Guvenligi A.S.
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 247828036233582610519939116134009799830
-	SKI: 96:3D:AD:18:3A:3F:D8:02:A4:B9:6D:3F:F5:07:B9:60:9C:DC:3F:03
-	Valid from: 2013-03-11T14:32:08+0000
-	     until: 2023-03-10T14:32:09+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /E-GUVEN Kok Elektronik Sertifika Hizmet Saglayicisi
-    S3/C=TR/O=Elektronik Bilgi Guvenligi A.S.
-Issuer: /E-GUVEN Kok Elektronik Sertifika Hizmet Saglayicisi
-    S3/C=TR/O=Elektronik Bilgi Guvenligi A.S.
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 143644933340692903688666041236524302807
-	SKI: E2:74:33:FF:1A:56:79:05:45:D8:21:C7:B0:2A:8A:87:E7:A4:78:B0
-	Valid from: 2013-03-11T14:39:35+0000
-	     until: 2023-03-10T14:39:35+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /ApplicationCA2 Root/C=JP/O=Japanese Government/OU=GPKI
 Issuer: /ApplicationCA2 Root/C=JP/O=Japanese Government/OU=GPKI
 	Signature algorithm: RSA / SHA256
@@ -3658,23 +2948,6 @@ Details:
 	SKI: 7F:23:76:B7:83:2A:71:F7:2C:D1:88:0F:DD:4C:5F:32:0A:68:BB:7F
 	Valid from: 2013-03-27T09:40:22+0000
 	     until: 2036-03-27T10:10:22+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /TÜRKTRUST Elektronik Sertifika Hizmet Sağlayıcısı
-    H5/C=TR/O=TÜRKTRUST Bilgi İletişim ve Bilişim Güvenliği Hizmetleri
-    A.Ş./L=Ankara
-Issuer: /TÜRKTRUST Elektronik Sertifika Hizmet Sağlayıcısı
-    H5/C=TR/O=TÜRKTRUST Bilgi İletişim ve Bilişim Güvenliği Hizmetleri
-    A.Ş./L=Ankara
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 156233699172481
-	SKI: 56:99:07:1E:D3:AC:0C:69:64:B4:0C:50:47:DE:43:2C:BE:20:C0:FB
-	Valid from: 2013-04-30T08:07:01+0000
-	     until: 2023-04-28T08:07:01+0000
 	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
@@ -3925,23 +3198,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /TÜRKTRUST Elektronik Sertifika Hizmet Sağlayıcısı
-    H6/C=TR/O=TÜRKTRUST Bilgi İletişim ve Bilişim Güvenliği Hizmetleri
-    A.Ş./L=Ankara
-Issuer: /TÜRKTRUST Elektronik Sertifika Hizmet Sağlayıcısı
-    H6/C=TR/O=TÜRKTRUST Bilgi İletişim ve Bilişim Güvenliği Hizmetleri
-    A.Ş./L=Ankara
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 138134509972618
-	SKI: DD:55:17:13:F6:AC:E8:48:21:CA:EF:B5:AF:D1:00:32:ED:9E:8C:B5
-	Valid from: 2013-12-18T09:04:10+0000
-	     until: 2023-12-16T09:04:10+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /IdenTrust Public Sector Root CA 1/C=US/O=IdenTrust
 Issuer: /IdenTrust Public Sector Root CA 1/C=US/O=IdenTrust
 	Signature algorithm: RSA / SHA256
@@ -3964,19 +3220,6 @@ Details:
 	SKI: ED:44:19:C0:D3:F0:06:8B:EE:A4:7B:BE:42:E7:26:54:C8:8E:36:76
 	Valid from: 2014-01-16T18:12:23+0000
 	     until: 2034-01-16T18:12:23+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /CCA India 2014/C=IN/O=India PKI
-Issuer: /CCA India 2014/C=IN/O=India PKI
-	Signature algorithm: RSA / SHA256
-Details:
-	Public key: RSA-2048
-	Serial number: 10157
-	SKI: 42:B8:C5:CF:6D:B3:57:E1
-	Valid from: 2014-03-05T10:10:49+0000
-	     until: 2024-03-05T10:10:49+0000
 	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
@@ -4023,48 +3266,6 @@ Details:
 	     until: 2039-04-30T18:19:06+0000
 	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
-Subject: /CA DATEV BT 03/C=DE/O=DATEV eG
-Issuer: /CA DATEV BT 03/C=DE/O=DATEV eG
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 152104075352750229022802674966549670297
-	AKI: F4:B4:BE:6F:7C:12:8D:15:76:87:38:D9:7F:4D:7C:87:C2:29:F9:C3
-	SKI: F4:B4:BE:6F:7C:12:8D:15:76:87:38:D9:7F:4D:7C:87:C2:29:F9:C3
-	Valid from: 2014-05-02T05:40:59+0000
-	     until: 2022-08-02T07:40:59+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-CERTIFICATE
-Subject: /CA DATEV STD 03/C=DE/O=DATEV eG
-Issuer: /CA DATEV STD 03/C=DE/O=DATEV eG
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 165824233158689007801486926645737658657
-	AKI: 22:A1:86:3B:26:BD:5B:14:FF:6A:91:85:F5:22:92:FA:71:BE:DA:FC
-	SKI: 22:A1:86:3B:26:BD:5B:14:FF:6A:91:85:F5:22:92:FA:71:BE:DA:FC
-	Valid from: 2014-05-02T05:40:59+0000
-	     until: 2022-08-02T07:40:59+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
-	SANs (0):
-CERTIFICATE
-Subject: /CA DATEV INT 03/C=DE/O=DATEV eG
-Issuer: /CA DATEV INT 03/C=DE/O=DATEV eG
-	Signature algorithm: RSA / SHA1
-Details:
-	Public key: RSA-2048
-	Serial number: 121593696459097403780156404688336058058
-	AKI: 7D:D7:5E:A6:1A:36:D6:9B:E0:D0:4C:96:F7:AA:CE:57:9E:28:F2:23
-	SKI: 7D:D7:5E:A6:1A:36:D6:9B:E0:D0:4C:96:F7:AA:CE:57:9E:28:F2:23
-	Valid from: 2014-05-02T05:40:59+0000
-	     until: 2022-08-02T07:40:59+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
 CERTIFICATE
 Subject: /CAEDICOM Root/C=ES/O=EDICOM
@@ -4178,6 +3379,25 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
+Subject: /COMODO SHA-2 Pro Series Secure Server CA/C=GB/O=COMODO CA
+    Limited/L=Salford/ST=Greater Manchester
+Issuer: /AAA Certificate Services/C=GB/O=Comodo CA
+    Limited/L=Salford/ST=Greater Manchester
+	Signature algorithm: RSA / SHA384
+Details:
+	Public key: RSA-2048
+	Serial number: 184858721663017272285092440656930223752
+	AKI: A0:11:0A:23:3E:96:F1:07:EC:E2:AF:29:EF:82:A5:7F:D0:30:A4:B4
+	SKI: 80:B6:2B:0D:40:0A:0F:DF:3F:A4:BF:BF:03:F4:B1:76:6B:D5:E7:8F
+	Valid from: 2014-09-16T00:00:00+0000
+	     until: 2029-09-15T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	OCSP server:
+		- http://ocsp.comodoca.com
+CERTIFICATE
 Subject: /Microsoft Time Stamp Root Certificate Authority
     2014/C=US/O=Microsoft Corporation/L=Redmond/ST=Washington
 Issuer: /Microsoft Time Stamp Root Certificate Authority 2014/C=US/O=Microsoft
@@ -4251,18 +3471,24 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /CCA India 2015 SPL/C=IN/O=India PKI
-Issuer: /CCA India 2015 SPL/C=IN/O=India PKI
-	Signature algorithm: RSA / SHA256
+Subject: /COMODO SHA-2 Pro Series Secure Server CA/C=GB/O=COMODO CA
+    Limited/L=Salford/ST=Greater Manchester
+Issuer: /AAA Certificate Services/C=GB/O=Comodo CA
+    Limited/L=Salford/ST=Greater Manchester
+	Signature algorithm: RSA / SHA384
 Details:
 	Public key: RSA-2048
-	Serial number: 10165
-	SKI: 4C:11:70:AA:8F:DD:1F:07
-	Valid from: 2015-01-29T11:36:43+0000
-	     until: 2025-01-29T11:36:43+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
+	Serial number: 246883634746357637939162446578486023875
+	AKI: A0:11:0A:23:3E:96:F1:07:EC:E2:AF:29:EF:82:A5:7F:D0:30:A4:B4
+	SKI: 80:B6:2B:0D:40:0A:0F:DF:3F:A4:BF:BF:03:F4:B1:76:6B:D5:E7:8F
+	Valid from: 2015-02-12T00:00:00+0000
+	     until: 2030-02-11T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
 	SANs (0):
+	OCSP server:
+		- http://ocsp.comodoca.com
 CERTIFICATE
 Subject: /UCA Extended Validation Root/C=CN/O=UniTrust
 Issuer: /UCA Extended Validation Root/C=CN/O=UniTrust
@@ -5188,21 +4414,6 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
-Subject: /emSign ECC Root CA - G3/C=IN/O=eMudhra Technologies
-    Limited/OU=emSign PKI
-Issuer: /emSign ECC Root CA - G3/C=IN/O=eMudhra Technologies Limited/OU=emSign
-    PKI
-	Signature algorithm: ECDSA / SHA384
-Details:
-	Public key: ECDSA-secp384r1
-	Serial number: 287880440101571086945156
-	SKI: 7C:5D:02:84:13:D4:CC:8A:9B:81:CE:17:1C:2E:29:1E:9C:48:63:42
-	Valid from: 2018-02-18T18:30:00+0000
-	     until: 2043-02-18T18:30:00+0000
-	Key usages: cert sign, crl sign
-	Basic constraints: valid, is a CA certificate
-	SANs (0):
-CERTIFICATE
 Subject: /emSign Root CA - C2/C=US/O=eMudhra Inc/OU=emSign PKI
 Issuer: /emSign Root CA - C2/C=US/O=eMudhra Inc/OU=emSign PKI
 	Signature algorithm: RSA / SHA384
@@ -5276,6 +4487,25 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
+Subject: /Comodo Japan RSA DV CA/C=JP/O=Comodo Japan,
+    Inc./L=Chiyoda-ku/ST=Tokyo
+Issuer: /AAA Certificate Services/C=GB/O=Comodo CA
+    Limited/L=Salford/ST=Greater Manchester
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-2048
+	Serial number: 118558298467631452769222351567230513713
+	AKI: A0:11:0A:23:3E:96:F1:07:EC:E2:AF:29:EF:82:A5:7F:D0:30:A4:B4
+	SKI: 21:91:01:CC:88:1F:B3:E6:2E:43:F4:7C:F1:30:89:8B:41:6C:1D:4A
+	Valid from: 2018-06-14T00:00:00+0000
+	     until: 2028-06-13T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	OCSP server:
+		- http://ocsp.comodoca.com
+CERTIFICATE
 Subject: /Digidentity Services Root CA/C=NL/O=Digidentity B.V.
 Issuer: /Digidentity Services Root CA/C=NL/O=Digidentity B.V.
 	Signature algorithm: RSA / SHA256
@@ -5302,6 +4532,25 @@ Details:
 	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate, max path length 1
 	SANs (0):
+CERTIFICATE
+Subject: /Sectigo RSA Pro Series Secure Server CA/C=GB/O=Sectigo
+    Limited/L=Salford/ST=Greater Manchester
+Issuer: /AAA Certificate Services/C=GB/O=Comodo CA
+    Limited/L=Salford/ST=Greater Manchester
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-2048
+	Serial number: 27622012235424977087809069238306234677
+	AKI: A0:11:0A:23:3E:96:F1:07:EC:E2:AF:29:EF:82:A5:7F:D0:30:A4:B4
+	SKI: 81:C5:BA:1D:B3:02:7D:C1:BF:56:F1:68:0C:E8:07:86:9C:7A:80:C6
+	Valid from: 2018-11-06T00:00:00+0000
+	     until: 2030-12-31T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	OCSP server:
+		- http://ocsp.comodoca.com
 CERTIFICATE
 Subject: /Telia Root CA v2/C=FI/O=Telia Finland Oyj
 Issuer: /Telia Root CA v2/C=FI/O=Telia Finland Oyj
@@ -5384,6 +4633,42 @@ Details:
 	Key usages: cert sign, crl sign
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
+CERTIFICATE
+Subject: /Apple Public Server ECC CA 12 - G1/C=US/O=Apple Inc./ST=California
+Issuer: /AAA Certificate Services/C=GB/O=Comodo CA
+    Limited/L=Salford/ST=Greater Manchester
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: ECDSA-prime256v1
+	Serial number: 152062101864786254270275607527185217712
+	AKI: A0:11:0A:23:3E:96:F1:07:EC:E2:AF:29:EF:82:A5:7F:D0:30:A4:B4
+	SKI: 5F:E3:2E:8A:94:97:DE:D3:5C:E1:B7:D4:BC:98:8E:31:29:C9:90:3A
+	Valid from: 2019-06-19T00:00:00+0000
+	     until: 2028-12-06T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	OCSP server:
+		- http://ocsp.comodoca.com
+CERTIFICATE
+Subject: /Apple Public Server RSA CA 12 - G1/C=US/O=Apple Inc./ST=California
+Issuer: /AAA Certificate Services/C=GB/O=Comodo CA
+    Limited/L=Salford/ST=Greater Manchester
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-2048
+	Serial number: 14479026799522096511860671249994321176
+	AKI: A0:11:0A:23:3E:96:F1:07:EC:E2:AF:29:EF:82:A5:7F:D0:30:A4:B4
+	SKI: 1E:5C:17:91:05:57:02:FC:77:5C:E3:70:43:EC:6B:FD:DD:D2:D8:69
+	Valid from: 2019-06-19T00:00:00+0000
+	     until: 2028-12-06T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	OCSP server:
+		- http://ocsp.comodoca.com
 CERTIFICATE
 Subject: /Autoridade Certificadora Raiz Brasileira
     v10/C=BR/O=ICP-Brasil/OU=Instituto Nacional de Tecnologia da Informacao -
@@ -5594,6 +4879,96 @@ Details:
 	Basic constraints: valid, is a CA certificate
 	SANs (0):
 CERTIFICATE
+Subject: /Sectigo SHA-256 DV Secure Server CA/C=GB/O=Sectigo Limited
+Issuer: /AAA Certificate Services/C=GB/O=Comodo CA
+    Limited/L=Salford/ST=Greater Manchester
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-2048
+	Serial number: 266016311018522150455829563466279248411
+	AKI: A0:11:0A:23:3E:96:F1:07:EC:E2:AF:29:EF:82:A5:7F:D0:30:A4:B4
+	SKI: 66:52:B8:65:2E:AA:B4:F2:41:7B:0A:74:FF:98:C2:03:68:E7:CE:80
+	Valid from: 2020-04-01T00:00:00+0000
+	     until: 2028-12-31T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	OCSP server:
+		- http://ocsp.comodoca.com
+CERTIFICATE
+Subject: /Sectigo SHA-256 EV Secure Server CA/C=GB/O=Sectigo Limited
+Issuer: /AAA Certificate Services/C=GB/O=Comodo CA
+    Limited/L=Salford/ST=Greater Manchester
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-2048
+	Serial number: 307961839245138452512505926569982412473
+	AKI: A0:11:0A:23:3E:96:F1:07:EC:E2:AF:29:EF:82:A5:7F:D0:30:A4:B4
+	SKI: 01:DB:94:A8:62:B4:60:08:53:95:F6:D4:A8:1E:FB:F6:04:A3:46:AA
+	Valid from: 2020-04-01T00:00:00+0000
+	     until: 2028-12-31T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	OCSP server:
+		- http://ocsp.comodoca.com
+CERTIFICATE
+Subject: /Sectigo SHA-256 OV Secure Server CA/C=GB/O=Sectigo Limited
+Issuer: /AAA Certificate Services/C=GB/O=Comodo CA
+    Limited/L=Salford/ST=Greater Manchester
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-2048
+	Serial number: 302202452222994912622522195440533407321
+	AKI: A0:11:0A:23:3E:96:F1:07:EC:E2:AF:29:EF:82:A5:7F:D0:30:A4:B4
+	SKI: 62:15:1F:89:16:38:18:5E:34:EB:FA:DC:86:07:10:8A:D4:ED:56:6A
+	Valid from: 2020-04-01T00:00:00+0000
+	     until: 2028-12-31T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	OCSP server:
+		- http://ocsp.comodoca.com
+CERTIFICATE
+Subject: /KICA RSA DV CA/C=KR/O=KICA
+Issuer: /AAA Certificate Services/C=GB/O=Comodo CA
+    Limited/L=Salford/ST=Greater Manchester
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-2048
+	Serial number: 105960198079834400438571125947849808061
+	AKI: A0:11:0A:23:3E:96:F1:07:EC:E2:AF:29:EF:82:A5:7F:D0:30:A4:B4
+	SKI: 00:B2:85:88:F1:A6:E5:F5:EF:82:25:04:4E:F9:65:CE:46:C1:11:0B
+	Valid from: 2020-05-27T00:00:00+0000
+	     until: 2028-12-31T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	OCSP server:
+		- http://ocsp.comodoca.com
+CERTIFICATE
+Subject: /KICA RSA OV CA/C=KR/O=KICA
+Issuer: /AAA Certificate Services/C=GB/O=Comodo CA
+    Limited/L=Salford/ST=Greater Manchester
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-2048
+	Serial number: 85121046095479263451870928983159891601
+	AKI: A0:11:0A:23:3E:96:F1:07:EC:E2:AF:29:EF:82:A5:7F:D0:30:A4:B4
+	SKI: 00:59:CD:A0:BB:D2:92:F0:BE:EE:6F:52:8B:A9:CE:37:74:C1:20:48
+	Valid from: 2020-05-27T00:00:00+0000
+	     until: 2028-12-31T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	OCSP server:
+		- http://ocsp.comodoca.com
+CERTIFICATE
 Subject: /ISRG Root X2/C=US/O=Internet Security Research Group
 Issuer: /ISRG Root X2/C=US/O=Internet Security Research Group
 	Signature algorithm: ECDSA / SHA384
@@ -5604,5 +4979,223 @@ Details:
 	Valid from: 2020-09-04T00:00:00+0000
 	     until: 2040-09-17T16:00:00+0000
 	Key usages: cert sign, crl sign
+	Basic constraints: valid, is a CA certificate
+	SANs (0):
+CERTIFICATE
+Subject: /DigiCert TLS ECC P384 Root G5/C=US/O=DigiCert, Inc.
+Issuer: /DigiCert TLS ECC P384 Root G5/C=US/O=DigiCert, Inc.
+	Signature algorithm: ECDSA / SHA384
+Details:
+	Public key: ECDSA-secp384r1
+	Serial number: 13129116028163249804115411775095713523
+	SKI: C1:51:45:50:59:AB:3E:E7:2C:5A:FA:20:22:12:07:80:88:7C:11:6A
+	Valid from: 2021-01-15T00:00:00+0000
+	     until: 2046-01-14T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Basic constraints: valid, is a CA certificate
+	SANs (0):
+CERTIFICATE
+Subject: /DigiCert TLS RSA4096 Root G5/C=US/O=DigiCert, Inc.
+Issuer: /DigiCert TLS RSA4096 Root G5/C=US/O=DigiCert, Inc.
+	Signature algorithm: RSA / SHA384
+Details:
+	Public key: RSA-4096
+	Serial number: 11930366277458970227240571539258396554
+	SKI: 51:33:1C:ED:36:40:AF:17:D3:25:CD:69:68:F2:AF:4E:23:3E:B3:41
+	Valid from: 2021-01-15T00:00:00+0000
+	     until: 2046-01-14T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Basic constraints: valid, is a CA certificate
+	SANs (0):
+CERTIFICATE
+Subject: /HARICA TLS RSA Root CA 2021/C=GR/O=Hellenic Academic and Research
+    Institutions CA
+Issuer: /HARICA TLS RSA Root CA 2021/C=GR/O=Hellenic Academic and Research
+    Institutions CA
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-4096
+	Serial number: 76817823531813593706434026085292783742
+	SKI: 0A:48:23:A6:60:A4:92:0A:33:EA:93:5B:C5:57:EA:25:4D:BD:12:EE
+	Valid from: 2021-02-19T10:55:38+0000
+	     until: 2045-02-13T10:55:37+0000
+	Key usages: cert sign, crl sign, digital signature
+	Basic constraints: valid, is a CA certificate
+	SANs (0):
+CERTIFICATE
+Subject: /HARICA TLS ECC Root CA 2021/C=GR/O=Hellenic Academic and Research
+    Institutions CA
+Issuer: /HARICA TLS ECC Root CA 2021/C=GR/O=Hellenic Academic and Research
+    Institutions CA
+	Signature algorithm: ECDSA / SHA384
+Details:
+	Public key: ECDSA-secp384r1
+	Serial number: 137515985548005187474074462014555733966
+	SKI: C9:1B:53:81:12:FE:04:D5:16:D1:AA:BC:9A:6F:B7:A0:95:19:6E:CA
+	Valid from: 2021-02-19T11:01:10+0000
+	     until: 2045-02-13T11:01:09+0000
+	Key usages: cert sign, crl sign, digital signature
+	Basic constraints: valid, is a CA certificate
+	SANs (0):
+CERTIFICATE
+Subject: /Sectigo Public Server Authentication Root E46/C=GB/O=Sectigo Limited
+Issuer: /Sectigo Public Server Authentication Root E46/C=GB/O=Sectigo Limited
+	Signature algorithm: ECDSA / SHA384
+Details:
+	Public key: ECDSA-secp384r1
+	Serial number: 88989738453351742415770396670917916916
+	SKI: D1:22:DA:4C:59:F1:4B:5F:26:38:AA:9D:D6:EE:EB:0D:C3:FB:A9:61
+	Valid from: 2021-03-22T00:00:00+0000
+	     until: 2046-03-21T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Basic constraints: valid, is a CA certificate
+	SANs (0):
+CERTIFICATE
+Subject: /Sectigo Public Server Authentication Root R46/C=GB/O=Sectigo Limited
+Issuer: /Sectigo Public Server Authentication Root R46/C=GB/O=Sectigo Limited
+	Signature algorithm: RSA / SHA384
+Details:
+	Public key: RSA-4096
+	Serial number: 156256931880233212765902055439220583700
+	SKI: 56:73:58:64:95:F9:92:1A:B0:12:2A:04:62:79:A1:40:15:88:21:49
+	Valid from: 2021-03-22T00:00:00+0000
+	     until: 2046-03-21T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Basic constraints: valid, is a CA certificate
+	SANs (0):
+CERTIFICATE
+Subject: /TrustAsia ECC DV TLS CA G2/C=CN/O=TrustAsia Technologies, Inc.
+Issuer: /AAA Certificate Services/C=GB/O=Comodo CA
+    Limited/L=Salford/ST=Greater Manchester
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: ECDSA-prime256v1
+	Serial number: 279277416845205507684913506772718254861
+	AKI: A0:11:0A:23:3E:96:F1:07:EC:E2:AF:29:EF:82:A5:7F:D0:30:A4:B4
+	SKI: 01:A6:B0:FD:96:C7:4A:A8:69:22:B2:11:9E:60:DB:6A:34:C6:14:52
+	Valid from: 2022-01-10T00:00:00+0000
+	     until: 2028-12-31T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	OCSP server:
+		- http://ocsp.comodoca.com
+CERTIFICATE
+Subject: /TrustAsia ECC EV TLS CA G2/C=CN/O=TrustAsia Technologies, Inc.
+Issuer: /AAA Certificate Services/C=GB/O=Comodo CA
+    Limited/L=Salford/ST=Greater Manchester
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: ECDSA-prime256v1
+	Serial number: 52501319304020675217365520945744352240
+	AKI: A0:11:0A:23:3E:96:F1:07:EC:E2:AF:29:EF:82:A5:7F:D0:30:A4:B4
+	SKI: 37:64:23:A6:E3:D6:39:FA:CD:A6:C2:5C:8C:F0:4F:57:F2:DC:C3:F0
+	Valid from: 2022-01-10T00:00:00+0000
+	     until: 2028-12-31T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	OCSP server:
+		- http://ocsp.comodoca.com
+CERTIFICATE
+Subject: /TrustAsia ECC OV TLS CA G2/C=CN/O=TrustAsia Technologies, Inc.
+Issuer: /AAA Certificate Services/C=GB/O=Comodo CA
+    Limited/L=Salford/ST=Greater Manchester
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: ECDSA-prime256v1
+	Serial number: 171254659210531622743029271671596486219
+	AKI: A0:11:0A:23:3E:96:F1:07:EC:E2:AF:29:EF:82:A5:7F:D0:30:A4:B4
+	SKI: 87:F8:36:1E:A2:0C:CC:5F:74:94:58:DF:16:ED:09:FA:38:D9:C4:17
+	Valid from: 2022-01-10T00:00:00+0000
+	     until: 2028-12-31T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	OCSP server:
+		- http://ocsp.comodoca.com
+CERTIFICATE
+Subject: /TrustAsia RSA DV TLS CA G2/C=CN/O=TrustAsia Technologies, Inc.
+Issuer: /AAA Certificate Services/C=GB/O=Comodo CA
+    Limited/L=Salford/ST=Greater Manchester
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-3072
+	Serial number: 236669704491783629389451010103532317099
+	AKI: A0:11:0A:23:3E:96:F1:07:EC:E2:AF:29:EF:82:A5:7F:D0:30:A4:B4
+	SKI: 5F:3A:7C:11:10:7E:0C:67:71:61:DC:8B:A3:B5:00:03:67:F5:57:1C
+	Valid from: 2022-01-10T00:00:00+0000
+	     until: 2028-12-31T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	OCSP server:
+		- http://ocsp.comodoca.com
+CERTIFICATE
+Subject: /TrustAsia RSA EV TLS CA G2/C=CN/O=TrustAsia Technologies, Inc.
+Issuer: /AAA Certificate Services/C=GB/O=Comodo CA
+    Limited/L=Salford/ST=Greater Manchester
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-3072
+	Serial number: 158513861205979756874655378547292748468
+	AKI: A0:11:0A:23:3E:96:F1:07:EC:E2:AF:29:EF:82:A5:7F:D0:30:A4:B4
+	SKI: 3C:BE:A1:AD:58:BD:44:72:5D:FF:4E:74:5A:C3:7B:94:27:A8:7C:80
+	Valid from: 2022-01-10T00:00:00+0000
+	     until: 2028-12-31T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	OCSP server:
+		- http://ocsp.comodoca.com
+CERTIFICATE
+Subject: /TrustAsia RSA OV TLS CA G2/C=CN/O=TrustAsia Technologies, Inc.
+Issuer: /AAA Certificate Services/C=GB/O=Comodo CA
+    Limited/L=Salford/ST=Greater Manchester
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-3072
+	Serial number: 181816488413943754384486977852475317710
+	AKI: A0:11:0A:23:3E:96:F1:07:EC:E2:AF:29:EF:82:A5:7F:D0:30:A4:B4
+	SKI: CA:31:21:37:0C:DE:39:B7:D2:2B:2D:55:9A:5C:A9:A9:5C:50:FA:26
+	Valid from: 2022-01-10T00:00:00+0000
+	     until: 2028-12-31T23:59:59+0000
+	Key usages: cert sign, crl sign, digital signature
+	Extended usages: client auth, server auth
+	Basic constraints: valid, is a CA certificate, max path length 0
+	SANs (0):
+	OCSP server:
+		- http://ocsp.comodoca.com
+CERTIFICATE
+Subject: /SSL.com TLS ECC Root CA 2022/C=US/O=SSL Corporation
+Issuer: /SSL.com TLS ECC Root CA 2022/C=US/O=SSL Corporation
+	Signature algorithm: ECDSA / SHA384
+Details:
+	Public key: ECDSA-secp384r1
+	Serial number: 26605119622390491762507526719404364228
+	AKI: 89:8F:2F:A3:E8:2B:A0:14:54:7B:F3:56:B8:26:5F:67:38:0B:9C:D0
+	SKI: 89:8F:2F:A3:E8:2B:A0:14:54:7B:F3:56:B8:26:5F:67:38:0B:9C:D0
+	Valid from: 2022-08-25T16:33:48+0000
+	     until: 2046-08-19T16:33:47+0000
+	Key usages: cert sign, crl sign, digital signature
+	Basic constraints: valid, is a CA certificate
+	SANs (0):
+CERTIFICATE
+Subject: /SSL.com TLS RSA Root CA 2022/C=US/O=SSL Corporation
+Issuer: /SSL.com TLS RSA Root CA 2022/C=US/O=SSL Corporation
+	Signature algorithm: RSA / SHA256
+Details:
+	Public key: RSA-4096
+	Serial number: 148535279242832292258835760425842727825
+	AKI: FB:2E:37:EE:E3:84:7A:27:2E:CD:19:35:B1:33:7C:FF:D4:44:42:B9
+	SKI: FB:2E:37:EE:E3:84:7A:27:2E:CD:19:35:B1:33:7C:FF:D4:44:42:B9
+	Valid from: 2022-08-25T16:34:22+0000
+	     until: 2046-08-19T16:34:21+0000
+	Key usages: cert sign, crl sign, digital signature
 	Basic constraints: valid, is a CA certificate
 	SANs (0):

@@ -1,0 +1,72 @@
+name: Manual Release
+on:
+  workflow_dispatch:
+    inputs:
+      expirationWindow:
+        description: 'Remove certs that expire in a forward looking window of N hours. e.g. Defaults to: "504h" (3 weeks)'
+        default: '504h'
+        required: false
+      addIntermediates:
+        description: 'Adds certificates to the intermediates bundle'
+        default: ''
+        required: false
+      addRoots:
+        description: 'Adds certificates to the roots bundle'
+        default: ''
+        required: false
+      allowSkipPR:
+        description: 'Skips the creation of a release if there are no changes. Boolean: true or false'
+        default: 'true'
+        required: false
+jobs:
+  create_release:
+    env:
+      LATEST_RELEASE: replace
+      CREATE_PR: false
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+      - name: Set up Go
+        uses: actions/setup-go@v2
+        with:
+          go-version: '1.27.3'
+      - run: go version
+      - name: Install dependencies
+        run: |
+          go install git.wntrmute.dev/kyle/goutils/cmd/certdump@v1.7.7
+          go install github.com/cloudflare/cfssl/cmd/...
+          go install github.com/cloudflare/cfssl_trust/...
+      - name: Setup git user
+        run: |
+          git config --global user.name "$(git --no-pager log --format=format:'%an' -n 1)"
+          git config --global user.email "$(git --no-pager log --format=format:'%ae' -n 1)"
+      - name: Setup new cert files
+        run: |
+          echo "Adding Intermediates"
+          echo "${{ github.event.inputs.addIntermediates }} | base64 --decode"
+          echo "Adding Roots"
+          echo "${{ github.event.inputs.addRoots }} | base64 --decode"
+          echo ${{ github.event.inputs.addIntermediates }} | base64 --decode >> ${{ runner.temp }}/new_intermediates.txt
+          echo ${{ github.event.inputs.addRoots }} | base64 --decode >> ${{ runner.temp }}/new_roots.txt
+      - name: Run release
+        run: |
+          EXPIRATION_WINDOW=${{ github.event.inputs.expirationWindow }} ALLOW_SKIP_PR=${{ github.event.inputs.allowSkipPR }}  NEW_INTERMEDIATES=${{ runner.temp }}/new_intermediates.txt NEW_ROOTS=${{ runner.temp }}/new_roots.txt ./release.sh
+          echo "LATEST_RELEASE=$(cfssl-trust -d cert.db releases | awk ' NR==1 { print $2 }')" >> $GITHUB_ENV
+          echo "CREATE_PR=$(git branch --show-current | grep -q release && echo true)" >> $GITHUB_ENV
+      - name: Create pull request
+        id: open-pr
+        if: ${{ env.CREATE_PR == 'true'}}
+        uses: repo-sync/pull-request@v2
+        with:
+          source_branch: "release/${{ env.LATEST_RELEASE }}"
+          destination_branch: "master"
+          pr_assignee: "lgarofalo"
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Google Chat Notification
+        if: always()
+        uses: Co-qn/google-chat-notification@releases/v1
+        with:
+          name: Manual Release ${{steps.open-pr.outputs.pr_url}}
+          url: ${{ secrets.SSL_TEAM_GOOGLE_CHAT_WEBHOOK }}
+          status: ${{ job.status }}
